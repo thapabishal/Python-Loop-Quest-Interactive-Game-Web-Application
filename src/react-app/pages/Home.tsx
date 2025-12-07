@@ -24,7 +24,7 @@ export default function Home() {
 
   const currentLevel = levels[currentLevelIndex];
   const isLevelCompleted = gameState.completedLevels.includes(currentLevel?.id);
-  const isAllLevelsCompleted = gameState.completedLevels.length === levels.length;
+  // const isAllLevelsCompleted = gameState.completedLevels.length === levels.length;
 
   useEffect(() => {
     if (currentLevel) {
